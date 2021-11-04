@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+  padding : 0;
+  margin: 0;
+}
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.btn-container {
+  padding-top: 2rem;
+  width: 400px
+}
+.btn {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0.5rem 0.8rem;
+  width: 150px;
+}
+
+.btn-secret {
+  background-color: #296FD8;
+  color: #fff;
+}
+
+.btn-login {
+  border: 1px solid #296FD8;
+}
+input {
+  font-size: 1.1rem;
+  outline: none;
+  font-weight: 300;
+  padding: 0.5rem;
+  border: 1px solid gray;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+label {
+  display: block;
+  padding: 0;
+}
+/* Utility Classes */
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end{
+  justify-content: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.text-center {
+  text-align: center;
+}
+.relative{
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
